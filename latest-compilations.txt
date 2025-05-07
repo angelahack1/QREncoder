@@ -1,0 +1,15 @@
+  172  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  174  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  177  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  180  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  183  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  185  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  193  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  196  g++ qrcode.cpp -lqrencode -lpng -o qrcode.exe
+  210  g++ qrcode2.cpp -lqrencode -lpng -o qrcode2.exe
+  228  g++ qrcode3.cpp -lqrencode -lpng -o qrcode3.exe
+  236  g++ qrcode4.cpp -lqrencode -lpng -o qrcode4.exe
+  241  g++ qrcode5.cpp -lqrencode -lpng -o qrcode5.exe
+  247  g++ qrcode3_1.cpp -lqrencode -lpng -o qrcode3_1.exe
+  370  g++ qrcode2.cpp -lqrencode -lpng -o qrcode2.exe
+  375  g++ qrcode2.cpp -lqrencode -lpng -o qrcode2.exe
