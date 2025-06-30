@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.10)
+project(QREncoder)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find the libqrencode library
+find_library(QRENCODE_LIBRARY NAMES qrencode libqrencode)
+find_path(QRENCODE_INCLUDE_DIR NAMES qrencode.h)
+
+if(NOT QRENCODE_LIBRARY)
+    message(FATAL_ERROR "libqrencode library not found. Please install libqrencode-dev or build it from source.")
+endif()
+
+if(NOT QRENCODE_INCLUDE_DIR)
+    message(FATAL_ERROR "qrencode.h header not found. Please install libqrencode-dev or build it from source.")
+endif()
+
+# Create the QR encoder executable
+add_executable(qr_encoder qr_encoder.cpp)
+
+# Link against libqrencode
+target_link_libraries(qr_encoder ${QRENCODE_LIBRARY})
+
+# Include directories
+target_include_directories(qr_encoder PRIVATE ${QRENCODE_INCLUDE_DIR})
+
+# Set output directory
+set_target_properties(qr_encoder PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)
+
+# Print configuration info
+message(STATUS "QRENCODE_LIBRARY: ${QRENCODE_LIBRARY}")
+message(STATUS "QRENCODE_INCLUDE_DIR: ${QRENCODE_INCLUDE_DIR}")
+
+# Add a simple test target
+add_custom_target(test_qr_encoder
+    COMMAND ${CMAKE_BINARY_DIR}/bin/qr_encoder "Hello, World!" test_qrcode.ppm 8 4 H
+    DEPENDS qr_encoder
+    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+    COMMENT "Testing QR encoder with sample text"
+) 

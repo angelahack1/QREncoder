@@ -1,4 +1,4 @@
-#include <qrencode.h>
+#include "qrencode.h"
 #include <iostream>
 
 int main() {

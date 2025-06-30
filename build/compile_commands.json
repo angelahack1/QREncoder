@@ -1,0 +1,62 @@
+[
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\qrencode.c.obj -c E:\\Developments\\QREncoder\\qrencode.c",
+  "file": "E:\\Developments\\QREncoder\\qrencode.c",
+  "output": "CMakeFiles\\qrencode.dir\\qrencode.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\qrinput.c.obj -c E:\\Developments\\QREncoder\\qrinput.c",
+  "file": "E:\\Developments\\QREncoder\\qrinput.c",
+  "output": "CMakeFiles\\qrencode.dir\\qrinput.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\bitstream.c.obj -c E:\\Developments\\QREncoder\\bitstream.c",
+  "file": "E:\\Developments\\QREncoder\\bitstream.c",
+  "output": "CMakeFiles\\qrencode.dir\\bitstream.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\qrspec.c.obj -c E:\\Developments\\QREncoder\\qrspec.c",
+  "file": "E:\\Developments\\QREncoder\\qrspec.c",
+  "output": "CMakeFiles\\qrencode.dir\\qrspec.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\rsecc.c.obj -c E:\\Developments\\QREncoder\\rsecc.c",
+  "file": "E:\\Developments\\QREncoder\\rsecc.c",
+  "output": "CMakeFiles\\qrencode.dir\\rsecc.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\split.c.obj -c E:\\Developments\\QREncoder\\split.c",
+  "file": "E:\\Developments\\QREncoder\\split.c",
+  "output": "CMakeFiles\\qrencode.dir\\split.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\mask.c.obj -c E:\\Developments\\QREncoder\\mask.c",
+  "file": "E:\\Developments\\QREncoder\\mask.c",
+  "output": "CMakeFiles\\qrencode.dir\\mask.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\mqrspec.c.obj -c E:\\Developments\\QREncoder\\mqrspec.c",
+  "file": "E:\\Developments\\QREncoder\\mqrspec.c",
+  "output": "CMakeFiles\\qrencode.dir\\mqrspec.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrencode.dir\\mmask.c.obj -c E:\\Developments\\QREncoder\\mmask.c",
+  "file": "E:\\Developments\\QREncoder\\mmask.c",
+  "output": "CMakeFiles\\qrencode.dir\\mmask.c.obj"
+},
+{
+  "directory": "E:/Developments/QREncoder/build",
+  "command": "F:\\Strawberry\\c\\bin\\gcc.exe -DHAVE_LIBPTHREAD=1 -DHAVE_PNG=1 -DHAVE_SDL=0 -DHAVE_STRDUP=1 -DMAJOR_VERSION=4 -DMICRO_VERSION=1 -DMINOR_VERSION=1 -DSTATIC_IN_RELEASE=static -DVERSION=\\\"4.1.1\\\" -g -o CMakeFiles\\qrenc.dir\\qrenc.c.obj -c E:\\Developments\\QREncoder\\qrenc.c",
+  "file": "E:\\Developments\\QREncoder\\qrenc.c",
+  "output": "CMakeFiles\\qrenc.dir\\qrenc.c.obj"
+}
+]

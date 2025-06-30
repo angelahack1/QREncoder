@@ -1,0 +1,58 @@
+# Makefile for QR Encoder
+CXX = g++
+CXXFLAGS = -std=c++11 -Wall -Wextra -O2
+LIBS = -lqrencode
+
+# Target executable
+TARGET = qr_encoder
+
+# Source files
+SOURCES = qr_encoder.cpp
+
+# Object files
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Default target
+all: $(TARGET)
+
+# Build the executable
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET) $(LIBS)
+
+# Compile source files
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Clean build files
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+
+# Test the encoder
+test: $(TARGET)
+	./$(TARGET) "Hello, World!" test_qrcode.ppm 8 4 H
+	./$(TARGET) "https://www.example.com" example_qrcode.ppm 6 4 M
+	./$(TARGET) "QR Code Test" test2_qrcode.ppm 4 2 L
+
+# Install (copy to /usr/local/bin)
+install: $(TARGET)
+	sudo cp $(TARGET) /usr/local/bin/
+
+# Uninstall
+uninstall:
+	sudo rm -f /usr/local/bin/$(TARGET)
+
+# Show help
+help:
+	@echo "Available targets:"
+	@echo "  all       - Build the QR encoder (default)"
+	@echo "  clean     - Remove build files"
+	@echo "  test      - Run test cases"
+	@echo "  install   - Install to /usr/local/bin"
+	@echo "  uninstall - Remove from /usr/local/bin"
+	@echo "  help      - Show this help message"
+	@echo ""
+	@echo "Usage examples:"
+	@echo "  ./qr_encoder \"Hello, World!\" qrcode.ppm"
+	@echo "  ./qr_encoder \"https://example.com\" qrcode.ppm 8 4 H"
+
+.PHONY: all clean test install uninstall help 

@@ -1,0 +1,8 @@
+E:/Developments/QREncoder/build/CMakeFiles/qrencode.dir
+E:/Developments/QREncoder/build/CMakeFiles/qrenc.dir
+E:/Developments/QREncoder/build/CMakeFiles/edit_cache.dir
+E:/Developments/QREncoder/build/CMakeFiles/rebuild_cache.dir
+E:/Developments/QREncoder/build/CMakeFiles/list_install_components.dir
+E:/Developments/QREncoder/build/CMakeFiles/install.dir
+E:/Developments/QREncoder/build/CMakeFiles/install/local.dir
+E:/Developments/QREncoder/build/CMakeFiles/install/strip.dir

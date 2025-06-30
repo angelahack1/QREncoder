@@ -1,0 +1,74 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+						"F:/Strawberry/c/include",
+						"F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
+						"F:/Strawberry/c/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0",
+						"F:/Strawberry/c/lib/gcc",
+						"F:/Strawberry/c/x86_64-w64-mingw32/lib",
+						"F:/Strawberry/c/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "F:/Strawberry/c/bin/gcc.exe",
+				"version" : "13.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "F:/Strawberry/c/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

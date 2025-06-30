@@ -1,0 +1,1669 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 6/30/2025 10:50:20 AM.
+      Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.16
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Developments/QREncoder/build/CMakeFiles/3.29.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-lsah0z"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-lsah0z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-lsah0z'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_19d3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:24 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsah0z\\cmTC_19d3c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19d3c.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsah0z\\Debug\\".
+          Creating directory "cmTC_19d3c.dir\\Debug\\cmTC_19d3c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19d3c.dir\\Debug\\cmTC_19d3c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19d3c.dir\\Debug\\\\" /Fd"cmTC_19d3c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\Strawberry\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19d3c.dir\\Debug\\\\" /Fd"cmTC_19d3c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\Strawberry\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsah0z\\Debug\\cmTC_19d3c.exe" /INCREMENTAL /ILK:"cmTC_19d3c.dir\\Debug\\cmTC_19d3c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-lsah0z/Debug/cmTC_19d3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-lsah0z/Debug/cmTC_19d3c.lib" /MACHINE:X64  /machine:x64 cmTC_19d3c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_19d3c.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsah0z\\Debug\\cmTC_19d3c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_19d3c.dir\\Debug\\cmTC_19d3c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19d3c.dir\\Debug\\cmTC_19d3c.tlog\\cmTC_19d3c.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lsah0z\\cmTC_19d3c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.39
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-6rsfdp"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-6rsfdp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-6rsfdp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_a52f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:26 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\cmTC_a52f0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a52f0.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\Debug\\".
+          Creating directory "cmTC_a52f0.dir\\Debug\\cmTC_a52f0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a52f0.dir\\Debug\\cmTC_a52f0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a52f0.dir\\Debug\\\\" /Fd"cmTC_a52f0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a52f0.dir\\Debug\\\\" /Fd"cmTC_a52f0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\src.c"
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\cmTC_a52f0.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\cmTC_a52f0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\cmTC_a52f0.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rsfdp\\cmTC_a52f0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.82
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wpjujr"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wpjujr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wpjujr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2856e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:28 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\cmTC_2856e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2856e.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\Debug\\".
+          Creating directory "cmTC_2856e.dir\\Debug\\cmTC_2856e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2856e.dir\\Debug\\cmTC_2856e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2856e.dir\\Debug\\\\" /Fd"cmTC_2856e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2856e.dir\\Debug\\\\" /Fd"cmTC_2856e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\Debug\\cmTC_2856e.exe" /INCREMENTAL /ILK:"cmTC_2856e.dir\\Debug\\cmTC_2856e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wpjujr/Debug/cmTC_2856e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wpjujr/Debug/cmTC_2856e.lib" /MACHINE:X64  /machine:x64 cmTC_2856e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\cmTC_2856e.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\cmTC_2856e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\cmTC_2856e.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpjujr\\cmTC_2856e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.07
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-l27sxx"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-l27sxx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-l27sxx'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_eb722.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:29 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\cmTC_eb722.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_eb722.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\Debug\\".
+          Creating directory "cmTC_eb722.dir\\Debug\\cmTC_eb722.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_eb722.dir\\Debug\\cmTC_eb722.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb722.dir\\Debug\\\\" /Fd"cmTC_eb722.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb722.dir\\Debug\\\\" /Fd"cmTC_eb722.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\Debug\\cmTC_eb722.exe" /INCREMENTAL /ILK:"cmTC_eb722.dir\\Debug\\cmTC_eb722.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-l27sxx/Debug/cmTC_eb722.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-l27sxx/Debug/cmTC_eb722.lib" /MACHINE:X64  /machine:x64 cmTC_eb722.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\cmTC_eb722.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\cmTC_eb722.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\cmTC_eb722.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l27sxx\\cmTC_eb722.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/FindIconv.cmake:66 (check_function_exists)"
+      - "CMakeLists.txt:23 (find_package)"
+    checks:
+      - "Looking for iconv_open"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ks7vto"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ks7vto"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "ICONV_IN_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ks7vto'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_1835e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:32 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1835e.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\Debug\\".
+          Creating directory "cmTC_1835e.dir\\Debug\\cmTC_1835e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1835e.dir\\Debug\\cmTC_1835e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=iconv_open /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1835e.dir\\Debug\\\\" /Fd"cmTC_1835e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=iconv_open /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1835e.dir\\Debug\\\\" /Fd"cmTC_1835e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\Debug\\cmTC_1835e.exe" /INCREMENTAL /ILK:"cmTC_1835e.dir\\Debug\\cmTC_1835e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ks7vto/Debug/cmTC_1835e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ks7vto/Debug/cmTC_1835e.lib" /MACHINE:X64  /machine:x64 cmTC_1835e.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol iconv_open referenced in function main [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj]
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\Debug\\cmTC_1835e.exe : fatal error LNK1120: 1 unresolved externals [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol iconv_open referenced in function main [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj]
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\Debug\\cmTC_1835e.exe : fatal error LNK1120: 1 unresolved externals [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ks7vto\\cmTC_1835e.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-8818ne"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-8818ne"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-8818ne'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_4db22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:34 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\cmTC_4db22.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4db22.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\Debug\\".
+          Creating directory "cmTC_4db22.dir\\Debug\\cmTC_4db22.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4db22.dir\\Debug\\cmTC_4db22.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4db22.dir\\Debug\\\\" /Fd"cmTC_4db22.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4db22.dir\\Debug\\\\" /Fd"cmTC_4db22.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\CheckIncludeFile.c"
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\cmTC_4db22.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\cmTC_4db22.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\cmTC_4db22.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8818ne\\cmTC_4db22.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.74
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-70mudr"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-70mudr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-70mudr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f6d49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:36 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\cmTC_f6d49.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f6d49.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\Debug\\".
+          Creating directory "cmTC_f6d49.dir\\Debug\\cmTC_f6d49.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f6d49.dir\\Debug\\cmTC_f6d49.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6d49.dir\\Debug\\\\" /Fd"cmTC_f6d49.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6d49.dir\\Debug\\\\" /Fd"cmTC_f6d49.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\Debug\\cmTC_f6d49.exe" /INCREMENTAL /ILK:"cmTC_f6d49.dir\\Debug\\cmTC_f6d49.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-70mudr/Debug/cmTC_f6d49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-70mudr/Debug/cmTC_f6d49.lib" /MACHINE:X64  /machine:x64 cmTC_f6d49.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f6d49.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\Debug\\cmTC_f6d49.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f6d49.dir\\Debug\\cmTC_f6d49.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f6d49.dir\\Debug\\cmTC_f6d49.tlog\\cmTC_f6d49.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-70mudr\\cmTC_f6d49.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-5z0h0z"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-5z0h0z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-5z0h0z'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_81611.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:38 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\cmTC_81611.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_81611.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\Debug\\".
+          Creating directory "cmTC_81611.dir\\Debug\\cmTC_81611.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_81611.dir\\Debug\\cmTC_81611.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81611.dir\\Debug\\\\" /Fd"cmTC_81611.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81611.dir\\Debug\\\\" /Fd"cmTC_81611.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\Debug\\cmTC_81611.exe" /INCREMENTAL /ILK:"cmTC_81611.dir\\Debug\\cmTC_81611.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-5z0h0z/Debug/cmTC_81611.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-5z0h0z/Debug/cmTC_81611.lib" /MACHINE:X64  /machine:x64 cmTC_81611.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_81611.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\Debug\\cmTC_81611.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_81611.dir\\Debug\\cmTC_81611.tlog\\unsuccessfulbuild".
+          Touching "cmTC_81611.dir\\Debug\\cmTC_81611.tlog\\cmTC_81611.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5z0h0z\\cmTC_81611.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:38 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-gios4s"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-gios4s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-gios4s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c18a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:41 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\cmTC_c18a5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c18a5.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\Debug\\".
+          Creating directory "cmTC_c18a5.dir\\Debug\\cmTC_c18a5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c18a5.dir\\Debug\\cmTC_c18a5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c18a5.dir\\Debug\\\\" /Fd"cmTC_c18a5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c18a5.dir\\Debug\\\\" /Fd"cmTC_c18a5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\Debug\\cmTC_c18a5.exe" /INCREMENTAL /ILK:"cmTC_c18a5.dir\\Debug\\cmTC_c18a5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-gios4s/Debug/cmTC_c18a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-gios4s/Debug/cmTC_c18a5.lib" /MACHINE:X64  /machine:x64 cmTC_c18a5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c18a5.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\Debug\\cmTC_c18a5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c18a5.dir\\Debug\\cmTC_c18a5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c18a5.dir\\Debug\\cmTC_c18a5.tlog\\cmTC_c18a5.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gios4s\\cmTC_c18a5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.03
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:39 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-izeuoh"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-izeuoh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-izeuoh'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2c036.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:43 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\cmTC_2c036.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2c036.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\Debug\\".
+          Creating directory "cmTC_2c036.dir\\Debug\\cmTC_2c036.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2c036.dir\\Debug\\cmTC_2c036.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c036.dir\\Debug\\\\" /Fd"cmTC_2c036.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c036.dir\\Debug\\\\" /Fd"cmTC_2c036.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\Debug\\cmTC_2c036.exe" /INCREMENTAL /ILK:"cmTC_2c036.dir\\Debug\\cmTC_2c036.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-izeuoh/Debug/cmTC_2c036.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-izeuoh/Debug/cmTC_2c036.lib" /MACHINE:X64  /machine:x64 cmTC_2c036.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2c036.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\Debug\\cmTC_2c036.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2c036.dir\\Debug\\cmTC_2c036.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2c036.dir\\Debug\\cmTC_2c036.tlog\\cmTC_2c036.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izeuoh\\cmTC_2c036.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:40 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-oqrqyd"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-oqrqyd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-oqrqyd'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b7976.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:45 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\cmTC_b7976.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b7976.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\Debug\\".
+          Creating directory "cmTC_b7976.dir\\Debug\\cmTC_b7976.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b7976.dir\\Debug\\cmTC_b7976.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7976.dir\\Debug\\\\" /Fd"cmTC_b7976.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7976.dir\\Debug\\\\" /Fd"cmTC_b7976.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\CheckIncludeFile.c"
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\cmTC_b7976.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\cmTC_b7976.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\cmTC_b7976.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqrqyd\\cmTC_b7976.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.70
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:41 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-j7uatp"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-j7uatp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-j7uatp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_32adc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:47 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\cmTC_32adc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_32adc.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\Debug\\".
+          Creating directory "cmTC_32adc.dir\\Debug\\cmTC_32adc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_32adc.dir\\Debug\\cmTC_32adc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32adc.dir\\Debug\\\\" /Fd"cmTC_32adc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32adc.dir\\Debug\\\\" /Fd"cmTC_32adc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\Debug\\cmTC_32adc.exe" /INCREMENTAL /ILK:"cmTC_32adc.dir\\Debug\\cmTC_32adc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-j7uatp/Debug/cmTC_32adc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-j7uatp/Debug/cmTC_32adc.lib" /MACHINE:X64  /machine:x64 cmTC_32adc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_32adc.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\Debug\\cmTC_32adc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_32adc.dir\\Debug\\cmTC_32adc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_32adc.dir\\Debug\\cmTC_32adc.tlog\\cmTC_32adc.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j7uatp\\cmTC_32adc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:42 (check_include_file)"
+    checks:
+      - "Looking for getopt.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qemubc"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qemubc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qemubc'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c241f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:49 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\cmTC_c241f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c241f.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\Debug\\".
+          Creating directory "cmTC_c241f.dir\\Debug\\cmTC_c241f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c241f.dir\\Debug\\cmTC_c241f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c241f.dir\\Debug\\\\" /Fd"cmTC_c241f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c241f.dir\\Debug\\\\" /Fd"cmTC_c241f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\CheckIncludeFile.c"
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\cmTC_c241f.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\cmTC_c241f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\cmTC_c241f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qemubc\\cmTC_c241f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.74
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:43 (check_include_file)"
+    checks:
+      - "Looking for sys/time.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c00drq"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c00drq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c00drq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2292d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:51 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\cmTC_2292d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2292d.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\Debug\\".
+          Creating directory "cmTC_2292d.dir\\Debug\\cmTC_2292d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2292d.dir\\Debug\\cmTC_2292d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2292d.dir\\Debug\\\\" /Fd"cmTC_2292d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2292d.dir\\Debug\\\\" /Fd"cmTC_2292d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\CheckIncludeFile.c"
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\cmTC_2292d.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\cmTC_2292d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\cmTC_2292d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c00drq\\cmTC_2292d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.69
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:44 (check_include_file)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qgymee"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qgymee"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qgymee'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_569d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:53 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\cmTC_569d8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_569d8.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\Debug\\".
+          Creating directory "cmTC_569d8.dir\\Debug\\cmTC_569d8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_569d8.dir\\Debug\\cmTC_569d8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_569d8.dir\\Debug\\\\" /Fd"cmTC_569d8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_569d8.dir\\Debug\\\\" /Fd"cmTC_569d8.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\Debug\\cmTC_569d8.exe" /INCREMENTAL /ILK:"cmTC_569d8.dir\\Debug\\cmTC_569d8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qgymee/Debug/cmTC_569d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-qgymee/Debug/cmTC_569d8.lib" /MACHINE:X64  /machine:x64 cmTC_569d8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_569d8.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\Debug\\cmTC_569d8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_569d8.dir\\Debug\\cmTC_569d8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_569d8.dir\\Debug\\cmTC_569d8.tlog\\cmTC_569d8.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgymee\\cmTC_569d8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:45 (check_include_file)"
+    checks:
+      - "Looking for pthread.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wlfpo9"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wlfpo9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-wlfpo9'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b0bb6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:55 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\cmTC_b0bb6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b0bb6.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\Debug\\".
+          Creating directory "cmTC_b0bb6.dir\\Debug\\cmTC_b0bb6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b0bb6.dir\\Debug\\cmTC_b0bb6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0bb6.dir\\Debug\\\\" /Fd"cmTC_b0bb6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0bb6.dir\\Debug\\\\" /Fd"cmTC_b0bb6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\CheckIncludeFile.c"
+        E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\cmTC_b0bb6.vcxproj]
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\cmTC_b0bb6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\cmTC_b0bb6.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wlfpo9\\cmTC_b0bb6.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.73
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:47 (check_function_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-p9epll"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-p9epll"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-p9epll'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_02971.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/30/2025 10:50:57 AM.
+        Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\cmTC_02971.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_02971.dir\\Debug\\".
+          Creating directory "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\Debug\\".
+          Creating directory "cmTC_02971.dir\\Debug\\cmTC_02971.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_02971.dir\\Debug\\cmTC_02971.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02971.dir\\Debug\\\\" /Fd"cmTC_02971.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02971.dir\\Debug\\\\" /Fd"cmTC_02971.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\Debug\\cmTC_02971.exe" /INCREMENTAL /ILK:"cmTC_02971.dir\\Debug\\cmTC_02971.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-p9epll/Debug/cmTC_02971.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-p9epll/Debug/cmTC_02971.lib" /MACHINE:X64  /machine:x64 cmTC_02971.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_02971.vcxproj -> E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\Debug\\cmTC_02971.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_02971.dir\\Debug\\cmTC_02971.tlog\\unsuccessfulbuild".
+          Touching "cmTC_02971.dir\\Debug\\cmTC_02971.tlog\\cmTC_02971.lastbuildstate".
+        Done Building Project "E:\\Developments\\QREncoder\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9epll\\cmTC_02971.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.84
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: F:/Strawberry/c/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/Developments/QREncoder/build/CMakeFiles/3.29.2/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-hf5g38"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-hf5g38"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-hf5g38'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_03dab
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj -c F:/Strawberry/c/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=F:\\Strawberry\\c\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03dab.dir/'
+         F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT F:/Strawberry/c/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03dab.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\angel\\AppData\\Local\\Temp\\ccyaxSS1.s
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "F:/Strawberry/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"
+        ignoring duplicate directory "F:/Strawberry/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "F:/Strawberry/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include
+         F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 71996911801439ebea1892f3f3ba3826
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03dab.dir/'
+         F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj C:\\Users\\angel\\AppData\\Local\\Temp\\ccyaxSS1.s
+        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
+        COMPILER_PATH=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;F:/Strawberry/c/bin/../libexec/gcc/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;F:/Strawberry/c/bin/../lib/gcc/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj -o cmTC_03dab.exe -Wl,--out-implib,libcmTC_03dab.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=F:\\Strawberry\\c\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
+        COMPILER_PATH=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;F:/Strawberry/c/bin/../libexec/gcc/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;F:/Strawberry/c/bin/../lib/gcc/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03dab.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03dab.'
+         F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\angel\\AppData\\Local\\Temp\\ccHGuTig.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_03dab.exe F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LF:/Strawberry/c/bin/../lib/gcc -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03dab.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2 version 13.2.0
+        F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\angel\\AppData\\Local\\Temp\\ccHGuTig.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_03dab.exe F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LF:/Strawberry/c/bin/../lib/gcc -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03dab.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03dab.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03dab.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include]
+          add: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include] ==> [F:/Strawberry/c/include]
+        collapse include dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [F:/Strawberry/c/x86_64-w64-mingw32/include]
+        implicit include dirs: [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/include;F:/Strawberry/c/include;F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;F:/Strawberry/c/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-hf5g38']
+        ignore line: []
+        ignore line: [Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_03dab]
+        ignore line: [[1/2] F:\\Strawberry\\c\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj -c F:/Strawberry/c/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=F:\\Strawberry\\c\\bin\\gcc.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03dab.dir/']
+        ignore line: [ F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT F:/Strawberry/c/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03dab.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\angel\\AppData\\Local\\Temp\\ccyaxSS1.s]
+        ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "F:/Strawberry/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "F:/Strawberry/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "F:/Strawberry/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include]
+        ignore line: [ F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 71996911801439ebea1892f3f3ba3826]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03dab.dir/']
+        ignore line: [ F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj C:\\Users\\angel\\AppData\\Local\\Temp\\ccyaxSS1.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r8) 2.42]
+        ignore line: [COMPILER_PATH=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [F:/Strawberry/c/bin/../libexec/gcc/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj -o cmTC_03dab.exe -Wl --out-implib libcmTC_03dab.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=F:\\Strawberry\\c\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) ]
+        ignore line: [COMPILER_PATH=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [F:/Strawberry/c/bin/../libexec/gcc/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03dab.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03dab.']
+        link line: [ F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\angel\\AppData\\Local\\Temp\\ccHGuTig.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_03dab.exe F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LF:/Strawberry/c/bin/../lib/gcc -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03dab.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=F:/Strawberry/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\angel\\AppData\\Local\\Temp\\ccHGuTig.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_03dab.exe] ==> ignore
+          arg [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+          arg [-LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LF:/Strawberry/c/bin/../lib/gcc] ==> dir [F:/Strawberry/c/bin/../lib/gcc]
+          arg [-LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LF:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_03dab.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_03dab.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        linker tool for 'C': Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [F:/Strawberry/c/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+        collapse obj [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        collapse library dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [F:/Strawberry/c/bin/../lib/gcc] ==> [F:/Strawberry/c/lib/gcc]
+        collapse library dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [F:/Strawberry/c/x86_64-w64-mingw32/lib]
+        collapse library dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [F:/Strawberry/c/lib]
+        collapse library dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [F:/Strawberry/c/x86_64-w64-mingw32/lib]
+        collapse library dir [F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [F:/Strawberry/c/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [F:/Strawberry/c/x86_64-w64-mingw32/lib/crt2.o;F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o;F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        implicit dirs: [F:/Strawberry/c/lib/gcc/x86_64-w64-mingw32/13.2.0;F:/Strawberry/c/lib/gcc;F:/Strawberry/c/x86_64-w64-mingw32/lib;F:/Strawberry/c/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:21 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-83yk6b"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-83yk6b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-83yk6b'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_40488
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_40488.dir/src.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-83yk6b/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_40488.dir/src.c.obj -o cmTC_40488.exe -Wl,--out-implib,libcmTC_40488.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/FindIconv.cmake:66 (check_function_exists)"
+      - "CMakeLists.txt:23 (find_package)"
+    checks:
+      - "Looking for iconv_open"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ke62xb"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ke62xb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "ICONV_IN_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ke62xb'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_013ac
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=iconv_open -o CMakeFiles/cmTC_013ac.dir/CheckFunctionExists.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ke62xb/CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=iconv_open  CMakeFiles/cmTC_013ac.dir/CheckFunctionExists.c.obj -o cmTC_013ac.exe -Wl,--out-implib,libcmTC_013ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_013ac.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=iconv_open  CMakeFiles/cmTC_013ac.dir/CheckFunctionExists.c.obj -o cmTC_013ac.exe -Wl,--out-implib,libcmTC_013ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        F:/Strawberry/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_013ac.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `iconv_open'\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-cpro9d"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-cpro9d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-cpro9d'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_63ee9
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_63ee9.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-cpro9d/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_63ee9.dir/CheckIncludeFile.c.obj 
+        F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_63ee9.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-cpro9d/CheckIncludeFile.c
+        E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-cpro9d/CheckIncludeFile.c:1:10: fatal error: dlfcn.h: No such file or directory
+            1 | #include <dlfcn.h>
+              |          ^~~~~~~~~
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-7ol6w5"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-7ol6w5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-7ol6w5'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_2328a
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_2328a.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-7ol6w5/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_2328a.dir/CheckIncludeFile.c.obj -o cmTC_2328a.exe -Wl,--out-implib,libcmTC_2328a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-h4wmdc"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-h4wmdc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-h4wmdc'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_b1332
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_b1332.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-h4wmdc/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_b1332.dir/CheckIncludeFile.c.obj -o cmTC_b1332.exe -Wl,--out-implib,libcmTC_b1332.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:38 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ldxdk1"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ldxdk1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ldxdk1'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_04cce
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_04cce.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ldxdk1/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_04cce.dir/CheckIncludeFile.c.obj -o cmTC_04cce.exe -Wl,--out-implib,libcmTC_04cce.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:39 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-egwe06"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-egwe06"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-egwe06'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_7d369
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_7d369.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-egwe06/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_7d369.dir/CheckIncludeFile.c.obj -o cmTC_7d369.exe -Wl,--out-implib,libcmTC_7d369.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:40 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-q6ku7k"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-q6ku7k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-q6ku7k'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_f9f48
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_f9f48.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-q6ku7k/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_f9f48.dir/CheckIncludeFile.c.obj -o cmTC_f9f48.exe -Wl,--out-implib,libcmTC_f9f48.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:41 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ppmonz"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ppmonz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ppmonz'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_f5192
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_f5192.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-ppmonz/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_f5192.dir/CheckIncludeFile.c.obj -o cmTC_f5192.exe -Wl,--out-implib,libcmTC_f5192.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:42 (check_include_file)"
+    checks:
+      - "Looking for getopt.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-pxamqo"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-pxamqo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-pxamqo'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_027f8
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_027f8.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-pxamqo/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_027f8.dir/CheckIncludeFile.c.obj -o cmTC_027f8.exe -Wl,--out-implib,libcmTC_027f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:43 (check_include_file)"
+    checks:
+      - "Looking for sys/time.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-t1mjt5"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-t1mjt5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-t1mjt5'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_1d358
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_1d358.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-t1mjt5/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_1d358.dir/CheckIncludeFile.c.obj -o cmTC_1d358.exe -Wl,--out-implib,libcmTC_1d358.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:44 (check_include_file)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-dgdkvf"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-dgdkvf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-dgdkvf'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_c1f2f
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_c1f2f.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-dgdkvf/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_c1f2f.dir/CheckIncludeFile.c.obj -o cmTC_c1f2f.exe -Wl,--out-implib,libcmTC_c1f2f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:45 (check_include_file)"
+    checks:
+      - "Looking for pthread.h"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-jw4vym"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-jw4vym"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-jw4vym'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_6eb24
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_6eb24.dir/CheckIncludeFile.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-jw4vym/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe   CMakeFiles/cmTC_6eb24.dir/CheckIncludeFile.c.obj -o cmTC_6eb24.exe -Wl,--out-implib,libcmTC_6eb24.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Strawberry/c/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:47 (check_function_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c42y76"
+      binary: "E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c42y76"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/Developments/QREncoder/cmake"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c42y76'
+        
+        Run Build Command(s): F:/Strawberry/c/bin/ninja.exe -v cmTC_badf6
+        [1/2] F:\\Strawberry\\c\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_badf6.dir/CheckFunctionExists.c.obj -c E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c42y76/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'strdup'; expected 'char *(const char *)' [-Wbuiltin-declaration-mismatch]
+        E:/Developments/QREncoder/build/CMakeFiles/CMakeScratch/TryCompile-c42y76/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && F:\\Strawberry\\c\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=strdup  CMakeFiles/cmTC_badf6.dir/CheckFunctionExists.c.obj -o cmTC_badf6.exe -Wl,--out-implib,libcmTC_badf6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

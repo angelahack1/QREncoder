@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A7D70C82-1DCC-3F08-B9C8-A0E81BA1EFC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>qrencode</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Developments\QREncoder\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qrencode.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qrencoded</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Developments\QREncoder\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qrencode.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qrencode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Developments\QREncoder\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qrencode.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qrencode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Developments\QREncoder\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qrencode.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qrencode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION="4.1.1";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION=\"4.1.1\";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION="4.1.1";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION=\"4.1.1\";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION="4.1.1";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION=\"4.1.1\";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION="4.1.1";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_STRDUP=1;MAJOR_VERSION=4;MINOR_VERSION=1;MICRO_VERSION=1;VERSION=\"4.1.1\";HAVE_SDL=0;strcasecmp=_stricmp;strncasecmp=_strnicmp;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_PNG=1;STATIC_IN_RELEASE=static;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Developments\QREncoder\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Developments/QREncoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\Strawberry\c\bin\cmake.exe -SE:/Developments/QREncoder -BE:/Developments/QREncoder/build --check-stamp-file E:/Developments/QREncoder/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeSystem.cmake;E:\Developments\QREncoder\cmake\FindIconv.cmake;E:\Developments\QREncoder\libqrencode.pc.in;E:\Developments\QREncoder\qrencode.1.in;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckFunctionExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckIncludeFile.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckLibraryExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPNG.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindThreads.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindZLIB.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Developments\QREncoder\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Developments/QREncoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\Strawberry\c\bin\cmake.exe -SE:/Developments/QREncoder -BE:/Developments/QREncoder/build --check-stamp-file E:/Developments/QREncoder/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeSystem.cmake;E:\Developments\QREncoder\cmake\FindIconv.cmake;E:\Developments\QREncoder\libqrencode.pc.in;E:\Developments\QREncoder\qrencode.1.in;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckFunctionExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckIncludeFile.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckLibraryExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPNG.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindThreads.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindZLIB.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Developments\QREncoder\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Developments/QREncoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\Strawberry\c\bin\cmake.exe -SE:/Developments/QREncoder -BE:/Developments/QREncoder/build --check-stamp-file E:/Developments/QREncoder/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeSystem.cmake;E:\Developments\QREncoder\cmake\FindIconv.cmake;E:\Developments\QREncoder\libqrencode.pc.in;E:\Developments\QREncoder\qrencode.1.in;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckFunctionExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckIncludeFile.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckLibraryExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPNG.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindThreads.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindZLIB.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Developments\QREncoder\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Developments/QREncoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\Strawberry\c\bin\cmake.exe -SE:/Developments/QREncoder -BE:/Developments/QREncoder/build --check-stamp-file E:/Developments/QREncoder/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;E:\Developments\QREncoder\build\CMakeFiles\3.29.2\CMakeSystem.cmake;E:\Developments\QREncoder\cmake\FindIconv.cmake;E:\Developments\QREncoder\libqrencode.pc.in;E:\Developments\QREncoder\qrencode.1.in;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckFunctionExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckIncludeFile.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\CheckLibraryExists.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPNG.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindThreads.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\FindZLIB.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\GNUInstallDirs.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;F:\Strawberry\c\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Developments\QREncoder\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Developments\QREncoder\qrencode.c" />
+    <ClCompile Include="E:\Developments\QREncoder\qrinput.c" />
+    <ClCompile Include="E:\Developments\QREncoder\bitstream.c" />
+    <ClCompile Include="E:\Developments\QREncoder\qrspec.c" />
+    <ClCompile Include="E:\Developments\QREncoder\rsecc.c" />
+    <ClCompile Include="E:\Developments\QREncoder\split.c" />
+    <ClCompile Include="E:\Developments\QREncoder\mask.c" />
+    <ClCompile Include="E:\Developments\QREncoder\mqrspec.c" />
+    <ClCompile Include="E:\Developments\QREncoder\mmask.c" />
+    <ClInclude Include="E:\Developments\QREncoder\qrencode_inner.h" />
+    <ClInclude Include="E:\Developments\QREncoder\qrinput.h" />
+    <ClInclude Include="E:\Developments\QREncoder\bitstream.h" />
+    <ClInclude Include="E:\Developments\QREncoder\qrspec.h" />
+    <ClInclude Include="E:\Developments\QREncoder\rsecc.h" />
+    <ClInclude Include="E:\Developments\QREncoder\split.h" />
+    <ClInclude Include="E:\Developments\QREncoder\mask.h" />
+    <ClInclude Include="E:\Developments\QREncoder\mqrspec.h" />
+    <ClInclude Include="E:\Developments\QREncoder\mmask.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Developments\QREncoder\build\ZERO_CHECK.vcxproj">
+      <Project>{31432F97-4543-3B61-8CF4-25289075DA43}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

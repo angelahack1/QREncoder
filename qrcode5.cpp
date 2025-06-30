@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    const char* text = "Ángela López Mendoza,angelakimichellle@hotrmail.com,Comprador/Vendedor,NN";
+    const char* text = "Impresión 3D de Mazinger Z,Mazinger Z impreso en 3D para pintar,010101010102,300MXN";
     QRcode* qr = QRcode_encodeString(text, 0, QR_ECLEVEL_H, QR_MODE_8, 1);
 
     if (qr) {
